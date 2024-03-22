@@ -5,11 +5,16 @@ repo_name: squidfunk/mkdocs-material
 theme:
   name: material
   language: pt-BR
+  # font:
+  #   text: Noto Serif
   icon:
     repo: material/github
 
 plugins:
   - search:
+  - tags:
+  - git-revision-date-localized:
+      enable_creation_date: true
   - mkdocstrings:
       default_handler: python
       handlers:
