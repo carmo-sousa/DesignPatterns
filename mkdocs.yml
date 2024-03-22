@@ -1,0 +1,21 @@
+site_name: Design Patterns
+repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: squidfunk/mkdocs-material
+
+theme:
+  name: material
+  language: pt-BR
+  icon:
+    repo: material/github
+
+plugins:
+  - search:
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          load_external_modules: false
+          options:
+            show_bases: true
+            show_source: false
+            parameter_headings: true
