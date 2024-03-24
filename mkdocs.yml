@@ -1,6 +1,6 @@
 site_name: Design Patterns
-repo_url: https://github.com/squidfunk/mkdocs-material
-repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/carmo-sousa/DesignPatterns
+repo_name: carmo-sousa/DesignPatterns
 
 theme:
   name: material
